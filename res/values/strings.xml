@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">FragmentFit</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_base">BaseActivity</string>
+    
+    <string-array name="exercisesChestUp">
+        <item><b>BENCH PRESS:</b> 3 sets, 8 reps with maximum weight</item>
+        <item>BARBELL BENCH PRESS: 3 sets, 8 reps with maximum weight</item>
+        <item>FLY: 3 sets, 8 reps with maximum weight</item>
+        <item>BUTTERFLY: 3 sets, 8 reps with maximum weight</item>
+        <item>PUSHUPS: 4 sets, until failure. Try to do atleast 20 per set</item>
+        <item>CABLE ROWS: 3 sets, 8 reps with maximum weight</item>
+        <item>WIDE GRIP PULLUPS: 3 sets until failure</item>
+    </string-array>
+    <string-array name="exercisesChestDown">
+        <item><b>BENCH PRESS:</b> 5 sets with 15-20 reps each set or until failure</item>
+        <item>BARBELL BENCH PRESS: 5 sets, 15-20 reps with low weight</item>
+        <item>FLY: 5 sets, reps with low weight, until failure</item>
+        <item>BUTTERFLY: 5 sets, atleast 15 reps with low weight</item>
+        <item>PUSHUPS: until failure, they increase the muscle strenght</item>
+        <item>CABLE ROWS: 5 sets, 15 to 20 reps with minimum weight</item>
+    </string-array>
+    <string-array name="exercisesWaist">
+        <item>SIDE PLANK: 3 sets, each about 30-35 seconds</item>
+        <item>LEG RAISES: 10 minute workout raising legs for 20seconds and drop for 10 seconds, repeat</item>
+        <item>SITUPS: 5 sets with 25 reps or more</item>
+    </string-array>
+    <string-array name="exercisesHipsUp">
+        <item>SQUATS: 3 sets, 8 reps with maximum weight</item>
+        <item>STEPPER: atleast 10-15 minute workout</item>
+    </string-array>
+    <string-array name="exercisesHipsDown">
+        <item>SQUATS: 5 sets, 15 to 20 reps with minimum weight</item>
+        <item>STEPPER: atleast 30-45 minute workout</item>
+        <item>BYCICLE: atleast 45 to 60 minute workout</item>
+    </string-array>
+
+    <!-- stringi samo za exercises -->
+
+    <string-array name="Chest">
+        <item>Lie supine on bench. Dismount barbell from 
+		rack over upper chest using wide oblique overhand grip.
+		Lower weight to mid-chest.
+		Press bar upward until arms are extended. Repeat.</item>
+        <item>Position yourself on a free standing flat bench,
+		flat on your back. Have your spotter hand you each 
+		dumbbell. When you begin this movement, you want your
+		arms to be stretched out wide to your sides with your
+		elbows slightly bent and your palms facing inward, 
+		toward one another.At the peak of the movement,
+		really squeeze your pecs together for a one-count. 
+		When returning to the start position, 
+		be sure to lower the dumbbells
+		in a slow and controlled fashion. Repeat.</item>
+        <item>Sit down on bench with dumbbells resting on lower thigh.
+		Kick weights to shoulder and lie back. 
+		Position dumbbells to sides of chest with bent 
+		arm under each dumbbell.Press dumbbells up with 
+		elbows to sides until arms are extended. 
+		Lower weight to sides of upper chest until slight 
+		stretch is felt in chest or shoulder. Repeat.</item>
+        <item>Position yourself on a free standing flat bench,
+		flat on your back. Have your spotter hand you each 
+		dumbbell. When you begin this movement, you want your
+		arms to be stretched out wide to your sides with your
+		elbows slightly bent and your palms facing inward, 
+		toward one another.At the peak of the movement,
+		really squeeze your pecs together for a one-count. 
+		When returning to the start position, 
+		be sure to lower the dumbbells
+		in a slow and controlled fashion. Repeat.</item>
+        <item>Set up the cable machine for crossovers 
+		by adjusting the pulleys to the highest point 
+		possible on both sides and attaching single 
+		grip handles.Set your desired weight on the 
+		weight stacks and grasp each handle with your 
+		palms facing down.Take a step forward.
+		Bend your arms slightly at the elbows. 
+		Keep your chest up and eyes facing forwards. 
+		This is the starting position for the exercise.
+		Rotating at the shoulders only and moving your 
+		arms in a circular motion, slowly bring the 
+		handles together out in front of your body 
+		at mid-chest height. Squeeze your chest as 
+		you bring the handles together.
+		Slowly lower the weight back to the starting 
+		position and repeat.</item>
+        <item>Lie prone on floor with hands slightly wider
+		than shoulder width. Raise body up off floor 
+		by extend arms with body straight.	
+		Keeping body straight, lower body to floor by 
+		bending arms. Push body up until arms are extended. 
+		Repeat.  </item>
+        <item>Sit on seat and grasp stirrups to each side. 
+		Position elbows out to sides, slightly lower 
+		than shoulder height. Position hands slightly 
+		narrower than elbow width in front of upper arms.
+		Push stirrups out straight until arms are straight 
+		and parallel to one another. Return stirrups to 
+		original position, until slight stretch is felt in 
+		shoulders or chest. Repeat.</item>
+        <item>Sit in machine with back on pad. If available, 
+		push foot lever until padded lever moves forward. 
+		Place forearms on padded lever. Position upper 
+		arms approximately parallel. Release foot lever.
+		Push levers together. Return until chest muscles 
+		are stretched. Repeat.</item>
+        <item>Lie supine on incline/decline bench. 
+		Dismount barbell from rack over upper chest 
+		using wide oblique overhand grip.
+		Lower weight to upper chest. Press bar until 
+		arms are extended. Repeat.</item>
+        <item>Lie upper back perpendicular on bench. 
+		Flex hips slightly. Grasp one dumbbell from 
+		behind or from side with both hands under inner 
+		plate of dumbbell. Position dumbbell over chest 
+		with elbows slightly bent. Keeping elbows slightly 
+		bent throughout movement, lower dumbbell over and 
+		beyond head until upper arms are in-line with torso. 
+		Pull dumbbell up and over chest. Repeat.</item>
+    </string-array>
+    <string-array name="Shoulder">
+        <item>Grasp dumbbells in front of thighs with 
+	elbows slightly bent. Bend over slightly 
+	with hips and knees bent slightly.
+	Raise upper arms to sides until elbows 
+	are shoulder height. Maintain elbows 
+	height above or equal to wrists. Lower and repeat.</item>
+        <item>	Stand holding dumbbells to sides.
+	Elevate shoulders as high as possible.
+	Lower and repeat.</item>
+        <item>Grasp barbell with slightly wider than shoulder 
+	width overhand grip from rack. Position bar near 
+	upper chest. Press bar upward until arms are 
+	extended overhead. Return to upper chest and repeat.</item>
+        <item>	Stand with two dumbbells position in front 
+	of shoulders, palms facing body and elbows under wrists.
+	Initiate movement by bringing elbows out to sides. 
+	Continue to raise elbows outward while pressing 
+	dumbbells overhead until arms are straight. 
+	Lower to front of shoulders in opposite pattern and repeat.</item>
+        <item>Grasp barbell from rack or clean barbell 
+	from floor with overhand grip, slightly 
+	wider than shoulder width. Position bar 
+	in front of neck. Press bar upward until
+	 arms are extended overhead. Lower to front 
+	of neck and repeat.</item>
+        <item>Adjust the seat height so that the handles are 
+	at shoulder height.
+	Select an appropriate weight for the exercise.
+	Take hold of the handles with both hands, 
+	take a deep breath in and whilst exhaling extend 
+	the arms upwards. Pause briefly at the top of the 
+	movement and lower back to the start position whilst inhaling.
+	Repeat for the desired number of repetitions.</item>
+        <item>Grasp bar with shoulder width or slightly narrower 
+	overhand grip. Pull bar to neck with elbows leading. 
+	Allow wrists to flex as bar rises. Lower and repeat
+</item>
+        <item>Grasp plate in both hands. Position plate 
+	in front of upper legs with elbows straight or 
+	slightly bent. Raise plate forward and upward 
+	with until upper arms are above horizontal. Lower and repeat.</item>
+        <item>Grasp dumbbells to each side. Bend knees and bend over through hips 
+	with back flat close to horizontal. Position elbows with slight bend
+	and palms facing together. Raise upper arms to sides until elbows 
+	are shoulder height. Maintain upper arms perpendicular to torso 
+	and fixed elbow position (10° to 30° angle) throughout exercise. 
+	Maintain height of elbows above wrists by raising "pinkie finger" side up. 
+	Lower and repeat.</item>
+    </string-array>
+    <string-array name="Back">
+        <item>With feet flat beneath bar, squat down and grasp bar with 
+	shoulder width or slightly wider over hand or mixed grip.
+	Lift bar by extending hips and knees to full extension. 
+	Pull shoulders back at top of lift if rounded. Return and repeat.</item>
+        <item>Step up and grasp bar with overhand wide grip.
+	Pull body up until chin is above bar. Lower body 
+	until arms and shoulders are fully extended. Repeat.</item>
+        <item>Your move Holding dumbbells, bend at your knees and hips, 
+	and lower your torso until it’s parallel to the floor. 
+	Let the weights hang down. Then pull your shoulders back and 
+	hold for a second. Next, lift the weights to the sides of your 
+	torso by squeezing your shoulder blades towards your spine. 
+	Lower and repeat.</item>
+        <item>Your move Set a barbell at knee level in a squat rack 
+	and grab it with an overhand grip, hands wider than your legs. 
+	Then stand up, pushing your hips forward. Begin with no weight 
+	until it feels natural. When this exercise becomes easy, 
+	lift the barbell from the floor.</item>
+        <item>Sit slightly forward on seat or bench and grasp cable attachment. 
+	Place feet on vertical platform. Slide hips back positioning knees with slight bend.
+	Pull cable attachment to waist while straightening lower back. Pull shoulders 
+	back and push chest forward while arching back. Return until arms are extended, 
+	shoulders are stretched forward, and lower back is flexed forward. Repeat.</item>
+        <item>Kneel over side of bench by placing knee and hand of supporting arm on bench. 
+	Position foot of opposite leg slightly back to side. Grasp dumbbell from floor.
+	Pull dumbbell to up to side until it makes contact with ribs or until 
+	upper arm is just beyond horizontal. Return until arm is extended and shoulder 
+	is stretched downward. Repeat and continue with opposite arm.</item>
+        <item>Use light-medium dumbbells and begin in a seated position, bent over with 
+	arms hanging down and weights under the knees.
+	Try not to collapse on the legs but, instead, keep the back straight and the abs engaged.
+	Lift the arms out to the sides, up to shoulder level, squeezing shoulder blades together.
+	Keep the elbows slightly bent and only lift to shoulders.</item>
+        <item>Lie facedown, legs together and extended straight, arms bent with hands behind neck, head and neck in a neutral position. 
+	EXHALE: Lift the upper body (chest, shoulders) off of the ground, "crunching" towards the hips. 
+	Hold for 1-2 counts at highest position. 
+	INHALE: Slowly lower with control to start to complete one rep.</item>
+        <item>Bend knees slightly and bend over bar with back straight. 
+	Grasp bar with wide overhand grip.
+	Pull bar to upper waist. Return until arms are 
+	extended and shoulders are stretched downward. Repeat.</item>
+    </string-array>
+    <string-array name="Abs">
+        <item>Sit on apparatus with lower leg secured under padded bar. 
+	Hold weight to front of chest or behind neck or use no weight.
+	Lower body back until hips are almost extended. 
+	Raise body by flexing hips until torso is upright. Repeat.</item>
+        <item>Lie face up on your mat and place your hands behind your head, lightly supporting it with your fingers.
+	Bring the knees in to the chest and lift the shoulder blades off the floor without pulling on the neck.
+	Rotate to the left, bringing the right elbow towards the left knee as you straighten the other leg.
+	Switch sides, bringing the left elbow towards the right knee.</item>
+        <item>Stand on the chair and grip handholds to stabilize your upper body.
+	Press your back against the pad and contract the abs to raise the legs and lift knees towards your chest.
+	Do not arch the back or swing the legs up.</item>
+        <item>Lie on the ball, positioning it under the lower back.
+	Cross your arms over the chest or place them behind your head.
+	Contract your abs to lift your torso off the ball, pulling the bottom of your ribcage down toward your hips.
+	As you curl up, keep the ball stable.</item>
+        <item>Lie on the floor and extend the legs straight up with knees crossed.
+	Place your hands behind the head for support, but avoid pulling on the neck.
+	Contract the abs to lift the shoulder blades off the floor, as though reaching your chest towards your feet.
+	Keep the legs in a fixed position and imagine bringing your belly button towards your spine at the top of the movement.</item>
+        <item>Lie face down on mat resting on the forearms, palms flat on the floor.
+	Push off the floor, raising up onto toes and resting on the elbows.
+	Keep your back flat, in a straight line from head to heels.</item>
+        <item>Grasp dumbbell with arm straight to side.
+	Bend waist to opposite side of dumbbell until slight stretch is felt. 
+	Lower to opposite side same distance and repeat. Continue with opposite side.</item>
+        <item>Start with the wheel at your feet, with your arms and legs straight.
+	Now roll the wheel out until you are laid out as far as you can go, 
+	but still under control. Then pull everything back until your hands 
+	and feet come back together.</item>
+        <item>Grasp and hang from high bar with slightly wider than shoulder width overhand grip.
+	Raise legs by flexing hips and knees until hips are completely flexed or 
+	knees are well above hips. Return until hips and knees are extended downward. Repeat.</item>
+    </string-array>
+    <string-array name="Arms">
+        <item>Grasp bar with shoulder width under hand grip.
+	With elbows to side, raise bar until forearms are vertical. 
+	Lower until arms are fully extended. Repeat.</item>
+        <item>Sit on bench. Grasp dumbbell between feet. Place back of upper 
+	arm to inner thigh. Lean into leg to raise elbow slightly.
+	Raise dumbbell to front of shoulder. Lower dumbbell until arm is 
+	fully extended. Repeat. Continue with opposite arm.</item>
+        <item>Position two dumbbells to sides, palms facing in, arms straight.	
+	With elbows to sides, raise one dumbbell until forearm is vertical and 
+	thumb faces shoulder. Lower to original position and repeat with alternative arm.</item>
+        <item>Grab the chinup bar with an underhand grip but with your hands 6 to 8 inches apart, not shoulder-width.
+	When you place your hands closer together, your biceps become even more involved in the exercise. 
+	This makes the exercise easier than the classic chinup.
+	Keeping your arms completely straight and crossing your ankles behind you, hang at arms length.
+	You should return to this position—known as a dead hang—each time you lower your body back down.</item>
+        <item>Kneel over bench with arm supporting body. Grasp dumbbell. Position upper arm parallel to floor.
+	Extend arm until it is straight. Return and repeat. Continue with opposite arm.</item>
+        <item>Mount shoulder width dip bar, arms straight with shoulders above hands. Keep hips straight.
+	Lower body until slight stretch is felt in shoulders. Push body up until arms are straight. Repeat.</item>
+        <item>Lie on bench with narrow overhand grip on barbell. Position barbell over shoulders with arms extended.
+	Lower bar to forehead by bending elbows. Extend arms and repeat.</item>
+        <item>Begin the move by positioning the hands on the mat directly under the chest with the fingers spread 
+	and the thumbs and forefingers touching, making a triangle shape.
+	Straighten the legs into a plank position (harder) or keep the knees on the floor for an easier version.
+	Make sure the back is flat and the abs are engaged as you bend the elbows, lowering until your chin or 
+	chest touches the mat. If you cannot go that low, go as low as you can and work to build enough strength to lower all the way down over time.
+	At the bottom of the movement, your elbows will naturally flare out to the side.</item>
+        <item>Stand in front of a cable machine, holding onto the bar with the elbows bent to about 90 degrees.
+	Keeping the elbows stationary, push the bar down, contracting the triceps as you extend the arms.Repeat.</item>
+        <item>Position one dumbbell overhead with both hands under inner plate (heart shaped grip).
+	With elbows overhead, lower forearm behind upper arm by flexing elbows. 
+	Flex wrists at bottom to avoid hitting dumbbell on back of neck. 
+	Raise dumbbell overhead by extending elbows while hyperextending wrists. Return and repeat.</item>
+        <item>Lie on bench and grasp barbell from rack with shoulder width grip.
+	Lower weight to chest with elbows close to body. 
+	Push barbell back up until arms are straight. Repeat.</item>
+    </string-array>
+    <string-array name="Legs">
+        <item>From rack with barbell at upper chest height, position bar high 
+	on back of shoulders and grasp barbell to sides. Dismount bar from 
+	rack and stand with shoulder width stance.
+	Bend knees forward while allowing hips to bend back behind, 
+	keeping back straight and knees pointed same direction as feet. 
+	Descend until thighs are just past parallel to floor. 
+	Extend knees and hips until legs are straight. Return and repeat.</item>
+        <item>Stand with dumbbells grasped to sides.
+	Lunge forward with first leg. Land on heel then forefoot. 
+	Lower body by flexing knee and hip of front leg until knee of 
+	rear leg is almost in contact with floor. Return to original standing 
+	position by forcibly extending hip and knee of forward leg. 
+	Repeat by alternating lunge with opposite leg.</item>
+        <item>Sit on apparatus with back against padded back support. 
+	Place back of lower leg on top of padded lever. Secure 
+	lap pad against thigh just above knees. Grasp handles on lap support.
+	Pull lever to back of thighs by flexing knees. 
+	Return lever until knees are straight. Repeat.</item>
+        <item>Sit on apparatus with back against padded back support. Place front of lower legs under padded lever. 
+	Position knee articulation at same axis as lever fulcrum. Grasp handles to sides for support.
+	Move lever forward and upward by extending knees until leg are straight. 
+	Return lever to original position by bending knees. Repeat.</item>
+        <item>Sit on machine with back on padded support. Place feet on platform. 
+	Extend hips and knees. Release dock lever and grasp handles to sides.
+	Lower sled by flexing hips and knees until knees are just short of complete flexion. 
+	Return by extending knees and hips. Repeat.</item>
+        <item>Stand in front of a secured box or platform.
+	Jump onto box and immediately back down to same position. Immediately repeat.</item>
+        <item>Set barbell on power rack upper chest height with calf block under barbell. 
+	Position back of shoulders under barbell with both hands to sides. 
+	Position toes and balls of feet on calf block with arches and heels extending off. 
+	Lean barbell against rack and raise from supports by extending knees and hips. 
+	Support barbell against verticals with both hands to sides.
+	Raise heels by extending ankles as high as possible. Lower heels by bending ankles until calves are stretched. Repeat.</item>
+        <item>Sit in machine with legs inside of side pads. If available, 
+	place heels on foot bars. Release and pull lever brace to position legs together. 
+	Engage lever into locked position. Lie back and grasp bars to sides.
+	Move legs appart as far as possible. Return and repeat.</item>
+        <item>Position barbell on back of shoulders and grasp barbell to sides. 
+	Stand with feet far apart; one foot forward and other foot behind.
+	Squat down by flexing knee and hip of front leg. 
+	Allow heel of rear foot to rise up while knee of rear leg 
+	bends slightly until it almost makes contact with floor. 
+	Return to original standing position by extending hip and knee of forward leg. 
+	Repeat. Continue with opposite leg.</item>
+    </string-array>
+    
+    <string-array name="muscles">
+        <item>CHEST</item>
+        <item>SHOULDERS</item>
+        <item>BACK</item>
+        <item>ABS</item>
+        <item>ARMS</item>
+        <item>LEGS</item>
+    </string-array>
+    <string-array name="chest_name_exercises">
+        <item>Bench press </item>
+        <item>Flat flyes </item>
+        <item>Dumbbell press</item>
+        <item>Dumbbell flyes </item>
+        <item>Cable crossovers </item>
+        <item>Pushups</item>
+        <item>Cable press </item>
+        <item>Pec deck</item>
+        <item>Incline/decline barbell press</item>
+        <item>Dumbbell pullover</item>
+    </string-array>
+    <string-array name="shoulders_name_exercises">
+        <item>Lateral raise</item>
+        <item>Shrugs</item>
+        <item>Overhead</item>
+        <item>Arnold press</item>
+        <item>Military press</item>
+        <item>Shoulder press machine</item>
+        <item>Barbell upright row</item>
+        <item>Front plate raises</item>
+        <item>Dumbell rear delt fly </item>
+    </string-array>
+    <string-array name="back_name_exercises">
+        <item>Deadlift</item>
+        <item>Pull ups</item>
+        <item>Big row</item>
+        <item>Rack pack</item>
+        <item>Seated cable row</item>
+        <item>One arm dumbbell rows</item>
+        <item>Reverse fly</item>
+        <item>Back extensions</item>
+        <item>Barbell rows</item>
+    </string-array>
+    <string-array name="abs_name_exercises">
+        <item>Decline weighted situps</item>
+        <item>Bicycle excercise</item>
+        <item>Captains chair leg raises</item>
+        <item>Excercise ball crunch</item>
+        <item>Vertical leg crunch</item>
+        <item>Plank on elbows and toes</item>
+        <item>Dumbell side bends</item>
+        <item>Ab roller</item>
+        <item>Hanging leg raises</item>
+    </string-array>
+    <string-array name="arms_name_exercises">
+        <item>Dumbell/barbell curls</item>
+        <item>Concentration curls</item>
+        <item>Hammer curls</item>
+        <item>Close-grip chinup</item>
+        <item>Triceps kickback</item>
+        <item>Dibs</item>
+        <item>Skull crushers</item>
+        <item>Triangle pushup</item>
+        <item>Bar pushdowns</item>
+        <item>Triceps extension</item>
+        <item>Close grip bench press</item>
+    </string-array>
+    <string-array name="legs_name_exercises">
+        <item>Squats </item>
+        <item>Five way lunges</item>
+        <item>Leg curl</item>
+        <item>Leg extension</item>
+        <item>Leg press machine</item>
+        <item>Box jumps </item>
+        <item>Dumbbell/machine calf raises</item>
+        <item>Hip abduction machine</item>
+        <item>Split squat</item>
+    </string-array>
+
+</resources>
